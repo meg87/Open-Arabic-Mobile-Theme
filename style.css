@@ -1,5 +1,6 @@
 /*
 Theme Name: Open Arabic Mobile Theme
+Theme URI: http://github.com/meg87/Open-Arabic-Mobile-Theme
 Description: Free and simple Arabic mobile theme for WordPress blogs.
 Version: 0.9.1
 Author: MEG
@@ -7,7 +8,7 @@ Author URI: http://meg87.com
 Tags: flexible-width, one-column, silver, white
 */
 
-*{direction:rtl;}
+*{direction:rtl; line-height:25px;}
 html, body { font-size: small; }
 body div#header { height:auto; }
 a { text-decoration: none; }
@@ -28,3 +29,5 @@ li.comment{margin: 10px;}
 .fn {font-style:normal;}
 .metadata{background: #f9f9f9; padding: 5px; color: #808080;}
 h1, h2, h3, h4, h5, h6 {font-family: arial, tahoma, sans-serif;}
+.pagebar p{text-align: center;}
+

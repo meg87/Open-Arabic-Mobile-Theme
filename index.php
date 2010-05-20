@@ -23,11 +23,11 @@
 				}
 				?>
 				<?php
-
 				?>
 			</div>
 		</div>
 	<?php endwhile; ?>		
 </div>
+<div class="pagebar"><p><?php posts_nav_link(); ?></p></div>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>
