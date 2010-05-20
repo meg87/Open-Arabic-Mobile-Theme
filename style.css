@@ -12,6 +12,7 @@ Tags: flexible-width, one-column, silver, white
 html, body { font-size: small; }
 body div#header { height:auto; }
 a { text-decoration: none; }
+/*h1 a:link, h1 a:link, h1 a:visited, h1 a:hover, h1 a:active { color:#808080; }*/
 h1 a:link, h2 a:link, h3 a:link, h4 a:link { color:#808080; }
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited { color:#808080; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { color:#808080; }
@@ -30,4 +31,4 @@ li.comment{margin: 10px;}
 .metadata{background: #f9f9f9; padding: 5px; color: #808080;}
 h1, h2, h3, h4, h5, h6 {font-family: arial, tahoma, sans-serif;}
 .pagebar p{text-align: center;}
-
+.entry-title a{font-weight:bold;}
