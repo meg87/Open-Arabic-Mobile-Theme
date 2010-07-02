@@ -10,11 +10,14 @@
 					<div class="post-content"><?php the_content('اقرأ المزيد'); ?></div>
 					<div class="metadata">
 						<b> الاقسام:</b> <?php the_category(', ') ?>
-						<br /><?php echo get_the_tag_list('<b>الاوسمة :</b> ', ', ', '') ?>
+						<br /><?php echo get_the_tag_list('<b>الاوسمة:</b> ', ', ', '') ?>
 					</div>
 				</div>
 				<?php comments_template(); ?>
-				<div class="pagebar"><p><?php previous_post('%', '« الصفحة السابقة', 'no'); ?> . <?php next_post('%', 'الصفحة التالية »', 'no'); ?></p></div>
+				<div class="pagebar">
+					<span class="previous"><?php previous_post('%', '« الصفحة السابقة', 'no'); ?></span>
+					<span class="next"><?php next_post('%', 'الصفحة التالية »', 'no'); ?></span>
+				</div>
 			<?php }
 			else
 			{ ?>
@@ -24,6 +27,9 @@
 				</div>
 			<?php } ?>
 	<?php endwhile; ?>	
-	<div class="pagebar"><p><?php posts_nav_link(); ?></p></div>	
+	<div class="pagebar">
+		<span class="previous"><?php previous_posts_link("« الصفحة السابقة"); ?></span>
+		<span class="next"><?php next_posts_link("الصفحة التالية »"); ?></span>
+	</div>
 </div>
 <?php get_footer(); ?>

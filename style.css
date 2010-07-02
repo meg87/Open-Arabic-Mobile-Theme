@@ -11,33 +11,33 @@ Tags: flexible-width, one-column, white, silver
 
 /* ALL */
 
-body {
-	color:#808080;
-	font-weight: normal;
-	font-family: arial, tahoma, sans-serif;
-}
-a { text-decoration: none; color:#1573A6;}
-h1 a, h2 a{ color:#808080;}
+body {color:#808080; font-family: arial, tahoma, sans-serif;}
+a {text-decoration: none; color:#1573A6;}
+h1 a, h2 a{color:#808080;}
 h1, h2, h3 {color:#808080; font-family: arial, tahoma, sans-serif;}
 p{text-align: justify}
 input, textarea{-webkit-text-size-adjust: 140%; text-size-adjust: 14pt;}
-img{max-width: 320px; max-height: 480; border:0;}
+img{max-width: 250px; border:0;}
 hr{height: 1px; background-color: #808080; color: #808080; border: 0px none; margin:10px; margin-bottom: 15px;}
-.pagebar p{text-align: center;}
+.pagebar p{text-align: center; display: block;}
 .metadata{color:#808080; font-size: small;}
 .post, .comment-body, #respond { margin: 10px 5px; -moz-border-radius: 5px; -webkit-border-radius: 10px; border-radius: 10px; background: #f5f5f5; padding: 10px; color: black; }
+.previous, .next{margin: 10px;}
+.previous{float: right;}
+.next{float: left;}
+.fn{font-style: normal;}
 
 
 /* HEADER */
 
-#header { height:auto; }
+#header {height:auto;}
 #header h1{font-size: x-large;}
 
 
 /* POST */
 
 .post-title a{font-weight:bold;}
-.post {line-height:25px; }
+.post {line-height:25px;}
 .post img{display: block; margin: auto;}
 .post h2{font-size: large;}
 
@@ -48,9 +48,9 @@ ol.commentlist{list-style:none; padding: 0px; margin-left:0;}
 li.comment{margin: 10px; list-style-type:none; margin:5px 0;}
 .comment-body{line-height:25px;}
 .comment-meta{display: none;}
-#respond input[type=text], #respond textarea{width: 90%;}
+#respond input[type=text], #respond textarea{width: 95%;}
 
 
 /* FOOTER */
 
-#footer p {text-align: center; font-size: small;}
+#footer p {text-align: center; font-size: small; clear:both;}

@@ -2,11 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
 	<head profile="http://gmpg.org/xfn/11">
 		<title><?php bloginfo('name');?></title>
-		<!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/low/reset-low.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/low/baseStyles-low.css" type="text/css" />-->
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<meta name="viewport" content="width=device-width,user-scalable=no" />
-
 		<script type="text/javascript">
 			function resize(multiplier) 
 			{ 
@@ -16,7 +13,6 @@
 				document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em"; 
 			}
 		</script>
-
 		<?php wp_head(); ?>
 	</head>
 	<body>
